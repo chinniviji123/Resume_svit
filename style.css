@@ -1,7 +1,14 @@
+img{
+  width:200px;
+}
+h1,h2{
+  font-style: italic;
+}
 .main{
-
+/* width: 100%; */
 border: 2px solid #000;
 display: flex;
+/* flex-direction: row; */
 flex-wrap: wrap;
 /* justify-content: center; */
 }
@@ -24,7 +31,7 @@ margin: 5px;
   border: 2px solid #000;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   /* justify-content: center; */
   }
   .left{
@@ -45,17 +52,17 @@ margin: 5px;
   border: 2px solid #000;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   /* justify-content: center; */
   }
   .left{
-    background-color:blue;
+    background-color: pink;
   border: 2px solid #000;
   margin: 5px;
   padding: 5px;
   }
   .right{
-    background-color: green;
+    background-color: yellow;
   border: 2px solid #000;
   margin: 5px;
   }
